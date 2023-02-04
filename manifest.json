@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "name": "altair-graphql-plugin-aws-cognito-confidential-client",
+  "display_name": "AWS Cognito Confidential Client",
+  "description": "Generates pre-request AWS ID and Access tokens for AWS Cognito User Pools that use a confidential client",
+  "author_email": "public@ortonomy.co",
+  "author": "Gregory Orton",
+  "capabilities": ["header:write", "environment:read", "environment:write"],
+  "scripts": ["dist/app.umd.js"],
+  "plugin_class": "AltairGraphQLPluginAwsCognitoConfidentialClient",
+  "type": "action_button"
+}
